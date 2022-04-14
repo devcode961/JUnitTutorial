@@ -23,6 +23,9 @@
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
+      <!-- Junit jupiter engine is the core of JUnit 5. It is the platform
+      / engine that runs the tests
+      -->
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.jupiter.version}</version>
       <scope>test</scope>

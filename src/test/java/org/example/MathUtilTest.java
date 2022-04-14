@@ -30,4 +30,9 @@ class MathUtilTest {
     void isPrime() {
         assertTrue(MathUtil.isPrime(5));
     }
+
+    @Test
+    void test_Divide_By_Zero(){
+        assertThrows(ArithmeticException.class, () -> MathUtil.divide(1, 0));
+    }
 }
