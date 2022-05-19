@@ -8,6 +8,25 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        App app = new App();
+
+         app.printStuff();
+
+         String x = "ab";
+
+         StringBuilder d = new StringBuilder();
+
+         d.append(x.charAt(1));
+
+        System.out.println(d);
+
+
+
+
     }
+
+    private void printStuff(){
+        System.out.println("Hello world");
+    }
+
 }
